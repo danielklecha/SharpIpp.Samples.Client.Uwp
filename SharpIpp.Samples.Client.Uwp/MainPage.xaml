@@ -1,0 +1,17 @@
+<Page
+    x:Class="SharpIpp.Samples.Client.Uwp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Padding="24">
+        <StackPanel Spacing="12">
+            <TextBlock Text="SharpIpp UWP .NET Native Test" Style="{ThemeResource TitleTextBlockStyle}" />
+            <TextBlock x:Name="StatusText" Text="Ready" Style="{ThemeResource BodyTextBlockStyle}" />
+            <Button x:Name="RunTestButton" Content="Run IPP Test" Click="RunTestButton_Click" />
+        </StackPanel>
+    </Grid>
+</Page>

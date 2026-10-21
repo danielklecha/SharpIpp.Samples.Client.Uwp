@@ -1,0 +1,11 @@
+<Directives xmlns="http://schemas.microsoft.com/netfx/2013/01/metadata">
+  <Application>
+    <!--
+      An assembly directive can be used to control reflection policies for an assembly.
+      Dynamic="Required All" enables all dynamic code generation and reflection capabilities,
+      which causes the .NET Native compiler (nutc_driver.exe) to compile all types and generic instances.
+    -->
+    <Assembly Name="*Application*" Dynamic="Required All" />
+    <Assembly Name="SharpIpp" Dynamic="Required All" />
+  </Application>
+</Directives>
